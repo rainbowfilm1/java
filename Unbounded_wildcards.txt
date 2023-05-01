@@ -1,0 +1,21 @@
+import java.util.Arrays;
+import java.util.List;
+public class Unbounded Wildcard
+{
+public static void display(List<?> list)
+{
+for(Object o:list)
+{
+System.out.println(0);
+}
+}
+public static void main(String[] args)
+{
+List<Integer> 11=Arrays.asList(1,2,3);
+System.out.println("displaying the Integer values");
+display(11);
+List<String> 12=Arrays.asList("One","Two","Three"); System.out.println("displaying the String values");
+}
+display(12);
+}
+}

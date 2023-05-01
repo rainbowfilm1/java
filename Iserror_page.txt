@@ -1,0 +1,7 @@
+<html>
+<body>
+<%@ page isErrorPage="true" %>
+Sorry and exception occured!<br/>
+The Exception is: <%= exception %>
+</body>
+</html>

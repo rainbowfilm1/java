@@ -1,0 +1,29 @@
+// index.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FormPage</title>
+</head>
+<body>	
+	<form action="welcome.jsp">
+	<input type="text" name="thename">
+	<input type="submit" value="Click Me"> <br>
+	</form>	
+</body>
+</html>
+
+// welcome.jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WelcomePage</title>
+</head>
+<body>
+	<% String name = request.getParameter("thename");
+		out.print("Welcome" + name); %>
+</body>
+</html>

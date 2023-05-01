@@ -1,0 +1,37 @@
+public class Student implements java.io.Serializable{
+
+private int id;
+private String name;
+
+public Student ()
+{}
+
+public void setId(int id)
+{
+	this.id=id;
+}
+public int getid()
+{
+return id;	
+}
+
+public void setName(String name)
+{
+	this.name=name;
+}
+	
+public String getName()
+{
+  return name;	
+}
+	
+
+	
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+		s.setName("UMESH");
+		System.out.println(s.getName());
+
+}		
+	}
